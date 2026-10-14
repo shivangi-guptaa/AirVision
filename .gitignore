@@ -1,0 +1,38 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+delhi-aqi-prediction-using-ml/.venv/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE configurations
+.vscode/
+.idea/
+
+# Large files (> 50MB) that exceed GitHub file limits
+*.csv
+!data/delhi_last_5_years.csv
+delhi-aqi-prediction-using-ml/data/station_hour.csv
+delhi-aqi-prediction-using-ml/data/city_hour.csv
+delhi-aqi-prediction-using-ml/data/delhi_ncr_aqi_dataset.csv
+delhi-aqi-prediction-using-ml/data/final_aqi_dataset.csv
+delhi-aqi-prediction-using-ml/data/delhi_only.csv
+delhi-aqi-prediction-using-ml/data/delhi_final_clean.csv
+delhi-aqi-prediction-using-ml/data/delhi_processed.csv
+
+# Large serialized models (> 100MB)
+notebooks/models/sarima_model.pkl
+notebooks/models/arima_model.pkl
+notebooks/models/rf_model.pkl
+notebooks/models/svr_model.pkl
+notebooks/models/
+delhi-aqi-prediction-using-ml/
