@@ -108,7 +108,7 @@ python src/train.py
 
 ---
 
-## 📝 Resume Impact Points
+## 📝  Impact Points
 
 * **End-to-End ML Forecasting Platform:** Architected an air quality forecasting system using 5+ years of Delhi-NCR telemetry, separating statutory deterministic CPCB formulas (instantaneous) from predictive ML ensembles (24-hour horizon).
 * **Time-Series Feature Engineering:** Formulated multi-step autoregressive lags ($\text{AQI}_{t-k}$), particulate interaction ratios, and cyclic temporal variables on chronological out-of-time splits, eliminating lookahead bias.
